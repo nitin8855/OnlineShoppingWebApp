@@ -1,0 +1,50 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+ html {
+ width:100%;
+ }
+
+body {
+  padding-top: 54px;
+  height:100%;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+/*
+coustom Styling
+*/
+.footer{
+	position: relative;
+	bottom: 0;
+	width: 20%;
+} 
+.py-5{
+	padding-bottom: 1rem !important;
+	padding-top: 1rem !important;
+}
+.navbar-brand{
+	position: relative;
+}
+.ml-auto, .mx-auto{
+	margin-left: 0px !important
+}
+/* .wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.content {
+	
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+} */
