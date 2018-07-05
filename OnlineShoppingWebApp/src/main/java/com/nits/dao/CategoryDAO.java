@@ -13,10 +13,12 @@ import com.nits.dto.Category;
  */
 public interface CategoryDAO {
 	
-	boolean add(Category category);
 	
+	Category get(long categoryID);
 	List<Category> list();
-
-	Category get(int categoryID);
+	boolean add(Category category);
+	boolean udate(Category category);
+	boolean delete(Category category);
+	
 
 }
