@@ -20,8 +20,7 @@ public class Category {
 	@Column(name = "id")
 	private long categoryID;
 	private String name;
-	private String discription;
-	
+	private String description;
 	@Column(name = "image_url")
 	private String imageURL;
 	
@@ -41,11 +40,11 @@ public class Category {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDiscription() {
-		return discription;
+	public String getDescription() {
+		return description;
 	}
-	public void setDiscription(String discription) {
-		this.discription = discription;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	public String getImageURL() {
 		return imageURL;
@@ -63,7 +62,7 @@ public class Category {
 	
 	@Override
 	public String toString() {
-		return "Category [categoryID=" + categoryID + ", name=" + name + ", discription=" + discription + ", imageURL="
+		return "Category [categoryID=" + categoryID + ", name=" + name + ", description=" + description + ", imageURL="
 				+ imageURL + ", active=" + active + "]";
 	}
 	
